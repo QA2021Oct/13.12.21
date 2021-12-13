@@ -12,7 +12,7 @@ public abstract class Shape {
     public abstract double getHaikefh();
 
     public String toString(){
-        return "Shape: " + name + " Area: " + getArea() + ",  Haikefh:" + getArea();
+        return "Shape: " + name + " Area: " + getArea() + ",  Haikefh:" + getHaikefh();
     }
 
 }
